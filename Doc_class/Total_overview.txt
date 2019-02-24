@@ -1,0 +1,15 @@
+1. Extract text from various docs
+	a) extract data from various types of docs.
+	b) translate the data to english. --
+2. preprocessing or cleaning the data  
+	a) remove punctuations  -- 
+	b) remove stopwords -- 
+	c) stemming and/or lemming --
+3. Vectorizing the data 
+	a) tf-idf vectorization --
+4. training the model 
+	a) train model using classifier 
+5. Predict the document 
+	a)predict
+6. Evaluate .
+	a)evaluate the results

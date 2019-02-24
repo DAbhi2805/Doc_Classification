@@ -1,0 +1,27 @@
+List of tasks and programs for weekend .
+
+1. Translator packages in python and sample code 
+https://cloud.google.com/translate/docs/ -- paid service
+https://py-googletrans.readthedocs.io/en/latest/
+
+2. stop word removal 
+3. tf-idf vectorizer 
+
+
+from nltk.corpus import stopwords
+stop = stopwords.words('english')
+train['tweet'] = train['tweet'].apply(lambda x: " ".join(x for x in x.split() if x not in stop))
+train['tweet'].head()
+https://www.analyticsvidhya.com/blog/2018/02/the-different-methods-deal-text-data-predictive-python/
+
+https://developer.ibm.com/tutorials/document-scanner/ -- list of packages to read data from any type of documents 
+
+
+Additonal literature on 
+1. packages to extract text from pdf,doc,png,jpg etc 
+	packages :
+		a) textract is having lot of dependencies with it to be installed URL : https://textract.readthedocs.io/en/stable/index.html
+		b) pytesseract -- is another package wrapped on google's tesseract-ocr 
+
+2. lemmatizing and stemming 
+		a) have doubt on how to lemmatize 
