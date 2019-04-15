@@ -1,0 +1,3 @@
+Issues ; 
+https://github.com/deanmalmgren/textract/issues/194
+
